@@ -39,10 +39,6 @@
 		<maven.test.skip>true</maven.test.skip>
 
 
-		<config.jdbc.url>jdbc:mysql://123.56.131.22:3306</config.jdbc.url>
-		<config.jdbc.username>admin</config.jdbc.username>
-		<config.jdbc.password>123456</config.jdbc.password>
-		<config.jdbc.schema>blog_01</config.jdbc.schema>
 
 		<code.generator.packageName>com.ck.gen.base.model</code.generator.packageName>
 		<code.generator.directory>src/main/java</code.generator.directory>
