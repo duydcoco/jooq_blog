@@ -18,7 +18,7 @@
 		<javax.servlet.version>3.1.0</javax.servlet.version>
 		<org.springframework.version>4.3.2.RELEASE</org.springframework.version>
 		<developer.organization><![CDATA[scengine]]></developer.organization>
-		<org.jooq.version>3.8.4</org.jooq.version>
+		<org.jooq.version>3.9.2</org.jooq.version>
 		<mysql.version>5.1.38</mysql.version>
 
 		<log4j.version>2.6.2</log4j.version>
@@ -38,7 +38,10 @@
 
 		<maven.test.skip>true</maven.test.skip>
 
-
+		<config.jdbc.url>jdbc:mysql://www.ck_jooq_blog.com:3306</config.jdbc.url>
+		<config.jdbc.username>admin</config.jdbc.username>
+		<config.jdbc.password>123456</config.jdbc.password>
+		<config.jdbc.schema>study_02</config.jdbc.schema>
 
 		<code.generator.packageName>com.ck.gen.base.model</code.generator.packageName>
 		<code.generator.directory>src/main/java</code.generator.directory>
@@ -155,6 +158,14 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.8.9</version>
 		</dependency>
+
+		<!--jpa-->
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+
 
 		<!-- 测试 -->
 		<dependency>
